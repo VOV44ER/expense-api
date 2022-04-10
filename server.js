@@ -11,6 +11,6 @@ app.use(auth)
 app.use(router)
 app.listen(3000)
 
-server.listen(PORT, () => {
+app.listen(PORT, () => {
     console.log('Server is running');
 });
