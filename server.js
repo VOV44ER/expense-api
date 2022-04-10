@@ -5,6 +5,10 @@ const app = jsonServer.create()
 const router = jsonServer.router('db.json')
 const PORT = process.env.PORT || 5000;
 
+const cors = require('cors')
+
+app.use(cors())
+
 app.db = router.db
 
 app.use(auth)
