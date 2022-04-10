@@ -1,12 +1,16 @@
-const data = require("./db.js");
+const jsonServer = require('json-server')
+const auth = require('json-server-auth')
 
-const jsonServer = require("json-server");
-const server = jsonServer.create();
-const router = jsonServer.router(data);
-const middlewares = jsonServer.defaults();
-const port = process.env.PORT || 3000;
+const app = jsonServer.create()
+const router = jsonServer.router('db.json')
+const PORT = process.env.PORT || 5000;
 
-server.use(middlewares);
-server.use(router);
+app.db = router.db
 
-server.listen(port);
+app.use(auth)
+app.use(router)
+app.listen(3000)
+
+server.listen(PORT, () => {
+    console.log('Server is running');
+});

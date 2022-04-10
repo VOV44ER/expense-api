@@ -1,0 +1,143 @@
+{
+  "users": [
+    {
+      "email": "vova@mail.com",
+      "name": "Vova",
+      "password": "$2a$10$Cxvs/0Oi97xG7rn881/B9udefdsLM87Du6o6tIpK11mrUCzN65tdq",
+      "id": 1
+    },
+    {
+      "email": "vitaly@mail.com",
+      "name": "Vitaly",
+      "password": "$2a$10$BTZenoGs2LQjt87k3CWFW.u1hxqozZna4967gyxUuSPYOWzNXjet.",
+      "id": 2
+    }
+  ],
+  "transactions": [
+    {
+      "category": "xjM6ETmAKPCHi3BhmUMJI",
+      "label": "Income for May",
+      "amount": 2500,
+      "date": "2022-04-08T12:15:16.988Z",
+      "id": "A7m3UnJbo1w3eGVyLpF7Z",
+      "userId": 1
+    },
+    {
+      "category": "dqp5nIRdL-TYQz7PPzvKA",
+      "label": "from father",
+      "amount": 500,
+      "date": "2022-04-08T12:15:42.545Z",
+      "id": "9wrMwnJWemtukDzirUMDl",
+      "userId": 1
+    },
+    {
+      "category": "duj00iNpPx84NyA8sfW8m",
+      "label": "bills",
+      "amount": 250,
+      "date": "2022-04-08T12:15:51.576Z",
+      "id": "AnDEP2T2r8292nKDxShsZ",
+      "userId": 1
+    },
+    {
+      "category": "xM2v44RZ-oFB3skHiQpM7",
+      "label": "Repair",
+      "amount": 500,
+      "date": "2022-04-08T12:16:00.569Z",
+      "id": "AV9pclvP8zvt3lwJlS1Jw",
+      "userId": 1
+    },
+    {
+      "category": "-Jb-NhydEnpZKTWO_Nrgv",
+      "label": "visit doctor",
+      "amount": 200,
+      "date": "2022-04-08T12:16:12.585Z",
+      "id": "MOC5c8Lc_uUQmFuWDtWPh",
+      "userId": 1
+    },
+    {
+      "category": "0",
+      "label": "to Ukrainian Army",
+      "amount": 1000,
+      "date": "2022-04-08T12:16:44.979Z",
+      "id": "gejAclUxDCxJF1PzHsrbd",
+      "userId": 1
+    },
+    {
+      "category": "xjM6ETmAKPCHi3BhmUMJI",
+      "label": "Income for May",
+      "amount": 500,
+      "date": "2022-04-08T13:09:47.751Z",
+      "id": "_Q2iJYyiuy3HpGzMIQJGt",
+      "userId": 2
+    },
+    {
+      "category": "0",
+      "label": "Help",
+      "amount": 200,
+      "date": "2022-04-09T10:52:42.498Z",
+      "id": "fOU57odzL2yrtim8szJLb",
+      "userId": 1
+    },
+    {
+      "category": "0",
+      "label": "Help to ZCY",
+      "amount": 250,
+      "date": "2022-04-10T11:01:41.048Z",
+      "id": "sGEf_UbItRJo82BIzDcQE",
+      "userId": 2
+    },
+    {
+      "category": "dqp5nIRdL-TYQz7PPzvKA",
+      "label": "From sister",
+      "amount": 100,
+      "date": "2022-04-10T11:03:29.811Z",
+      "id": "YEZ_JkYIv-h5ewXvH8A3a",
+      "userId": 2
+    },
+    {
+      "category": "xM2v44RZ-oFB3skHiQpM7",
+      "label": "fuel",
+      "amount": 100,
+      "date": "2022-04-10T11:06:05.471Z",
+      "id": "3zteRkjhaUzro3mBYMN5-",
+      "userId": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": "0",
+      "type": "other",
+      "label": "other"
+    },
+    {
+      "label": "Salary",
+      "id": "xjM6ETmAKPCHi3BhmUMJI",
+      "type": "income"
+    },
+    {
+      "label": "Gifts",
+      "type": "income",
+      "id": "dqp5nIRdL-TYQz7PPzvKA"
+    },
+    {
+      "label": "Home",
+      "id": "duj00iNpPx84NyA8sfW8m",
+      "type": "expenses"
+    },
+    {
+      "label": "Car",
+      "id": "xM2v44RZ-oFB3skHiQpM7",
+      "type": "expenses"
+    },
+    {
+      "label": "Medicine",
+      "id": "-Jb-NhydEnpZKTWO_Nrgv",
+      "type": "expenses"
+    },
+    {
+      "label": "Dividents",
+      "id": "w3YFiWNS15mHSJpj2dJ9t",
+      "type": "income"
+    }
+  ]
+}
