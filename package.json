@@ -4,7 +4,7 @@
   "description": "A simple JSON mock API",
   "main": "index.js",
   "scripts": {
-    "start": "json-server-auth db.json -r routes.json --port 8000"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
